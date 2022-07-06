@@ -11,16 +11,16 @@ def curso(self):
 
 # Create your views here.
 def inicio(request):
-    return render (request, "Appcoder/inicio.html")
+    return render (request, 'AppCoder/inicio.html')
 
 def cursos(request):
-    return render (request, "Appcoder/cursos.html")
+    return render (request, "AppCoder/cursos.html")
 
 def profesores(request):
-    return render (request, "Appcoder/profesores.html")
+    return render (request, "AppCoder/profesores.html")
 
 def estudiantes(request):
-    return render (request, "Appcoder/estudiantes.html")
+    return render (request, "AppCoder/estudiantes.html")
 
 def entregables(request):
-    return render (request, "Appcoder/entregables.html")
+    return render (request, "AppCoder/entregables.html")
