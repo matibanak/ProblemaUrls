@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import *
+
 def curso(self):
 
     curso= Curso(nombre="Django", comision=939393)
@@ -10,7 +11,7 @@ def curso(self):
 
 # Create your views here.
 def inicio(request):
-    return render (request, '.AppCoder.inicio.html')
+    return render (request, "Appcoder/inicio.html")
 
 def cursos(request):
     return render(request, "Appcoder/cursos.html")
@@ -23,3 +24,4 @@ def estudiantes(request):
 
 def entregables(request):
     return render (request, "Appcoder/entregables.html")
+

@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ProyectoCoder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/Matias/cluster_python/cluster/ProyectoCoder/AppCoder/TemplateApp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
